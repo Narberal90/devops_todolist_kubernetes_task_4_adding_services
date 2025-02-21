@@ -34,7 +34,7 @@ localhost:8070
 
 ### Test nodeport service:
 ```bash
-kubectl exec -it busybox --sh
+kubectl exec -it busybox -- sh
 curl http://todoapp-nodeport-service.todoapp.svc.cluster.local
 exit
 
